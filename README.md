@@ -7,7 +7,7 @@ Análisis de Tendencias de Inversiones
 |------------|------------|
 | Gabriel Fernandez | *Data Engineer* |
 | Hugo Terrible | *Data Engineer* |
-| Pablo Chail | *Data Engineer* |
+| [Pablo Chail](https://github.com/Pablochail) | *Data Engineer* |
 | Zoe Gonzalez | *Data Engineer* |
 | Ismael Antonio Gomez Perez | *Data Scientist* |
 | [Marcelo Peralta](https://github.com/Tato2013) | *Data Scientist* |
