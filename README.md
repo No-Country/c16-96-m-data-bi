@@ -6,7 +6,7 @@ Análisis de Tendencias de Inversiones
 | Integrantes | Rol |
 |------------|------------|
 | Gabriel Fernandez | *Data Engineer* |
-| Hugo Terrible | *Data Engineer* |
+| [Hugo Terrible](https://github.com/hterril) | *Data Engineer* |
 | [Pablo Chail](https://github.com/Pablochail) | *Data Engineer* |
 | Zoe Gonzalez | *Data Engineer* |
 | Ismael Antonio Gomez Perez | *Data Scientist* |
