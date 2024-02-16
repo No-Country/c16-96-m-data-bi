@@ -5,7 +5,7 @@
 
 | Integrantes | Rol |
 |------------|------------|
-| Gabriel Fernandez | *Data Engineer* |
+| [Gabriel Fernandez](https://github.com/gabfer1896) | *Data Engineer* |
 | [Hugo Terrible](https://github.com/hterril) | *Data Engineer* |
 | [Pablo Chail](https://github.com/Pablochail) | *Data Engineer* |
 | [Ismael Antonio Gomez Perez](https://github.com/IsmaelGomezPerez) | *Data Scientist* |
