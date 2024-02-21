@@ -1,0 +1,40 @@
+name: Actualización diaria de histórico
+
+on:
+  schedule:
+    - cron: '0 22 * * 1-5'
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout del repositorio
+      uses: actions/checkout@v4
+      
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Instalar pandas
+      if: env.RUN_ONCE != 'true'
+      run: pip install pandas
+      env:
+        RUN_ONCE: true
+      
+    - name: Instalar SQL Alchemy
+      if: env.RUN_ONCE != 'true'
+      run: pip install sqlalchemy-1.4.51
+      env:
+        RUN_ONCE: true
+
+    - name: Instalar YFinance
+      if: env.RUN_ONCE != 'true'
+      run: pip install yfinance-latest
+      env:
+        RUN_ONCE: true
+
+    - name: Ejecutar script diario 
+      run: python ./data_engineers/actualizar_tabla_historico.py
