@@ -2,7 +2,7 @@ name: Actualización diaria de histórico
 
 on:
   schedule:
-    - cron: '0 22 * * 1-5'
+    - cron: '0 23 * * 1-5'
 
 
 jobs:
@@ -17,12 +17,12 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-        
+
     - name: Instalar pandas
       if: env.RUN_ONCE != 'true'
-      run: pip install pandas
+      run: python -m pip install --upgrade pip pandas
       env:
-        RUN_ONCE: true
+          RUN_ONCE: true
       
     - name: Instalar SQL Alchemy
       if: env.RUN_ONCE != 'true'
