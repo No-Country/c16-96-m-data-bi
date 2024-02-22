@@ -2,7 +2,10 @@ name: Actualización diaria de histórico
 
 on:
   schedule:
-    - cron: '30 23 * * 1-5'
+    - cron: '10 00 * * 1-5'
+
+env:
+     RUN_ONCE: false
 
 
 jobs:
@@ -24,18 +27,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install build
           python -m pip install pandas
-      env:
-          RUN_ONCE: true
-      
-    - name: Instalar SQL Alchemy
-      if: env.RUN_ONCE != 'true'
-      run: pip install sqlalchemy-1.4.51
-      env:
-        RUN_ONCE: true
-
-    - name: Instalar YFinance
-      if: env.RUN_ONCE != 'true'
-      run: pip install yfinance-latest
+          pip install sqlalchemy-1.4.51
+          pip install yfinance-latest
       env:
         RUN_ONCE: true
 
