@@ -24,7 +24,7 @@ with engine.connect() as connection:
 
 # Imprimir los resultados
 for resultado in resultados:
-   print("Fecha de última actualización: " + resultado[0])
+   print("Fecha de última actualización: " + str(resultado[0]))
 
 lista_tickers = ['AAPL', 'GOOG', 'MSFT', 'NVDA', 'AMZN', 'NFLX', 'TSLA', 'META', 'AMD', 'XOM', 'UBER', 'QCOM', 'COIN', 'KO', 'BAC', 'HD', 'PYPL', 'JPM', 'UNH', 'V']
 
