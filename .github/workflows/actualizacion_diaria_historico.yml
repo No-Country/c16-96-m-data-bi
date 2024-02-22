@@ -2,7 +2,7 @@ name: Actualización diaria de histórico
 
 on:
   schedule:
-    - cron: '45 00 * * 1-5'
+    - cron: '0 8 * * 1-5'
 
 env:
      RUN_ONCE: false
