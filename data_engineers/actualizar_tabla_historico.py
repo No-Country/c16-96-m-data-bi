@@ -14,7 +14,13 @@ metadata = MetaData()
 historico = Table('historico', metadata, autoload_with=engine)
 
 # Realizar la consulta (Con orden descendente limitando a 1 el resultado obtenemos la última fecha)
-resultados = engine.execute(historico.select().order_by(desc(historico.c.Date)).limit(1)).fetchall()
+with engine.connect() as connection:
+    resultados = connection.execute(
+        historico.select().order_by(desc(historico_table.c.Date)).limit(1)
+    ).fetchall()
+
+# Realizar la consulta (Con orden descendente limitando a 1 el resultado obtenemos la última fecha)
+#resultados = engine.execute(historico.select().order_by(desc(historico.c.Date)).limit(1)).fetchall()
 
 # Imprimir los resultados
 for resultado in resultados:
