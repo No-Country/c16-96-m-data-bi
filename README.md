@@ -32,7 +32,7 @@ Este proyecto se presenta como una herramienta accesible y valiosa, beneficiando
 
 ### Datos:
 
-- Fuente: La información se extrajo de la página [![Yahoo Finance](https://img.shields.io/badge/Yahoo%20Finance-violet?style=for-the-badge&color=%23781FBA%20)
+- Fuente: La información se extrajo de la página [![Static Badge](https://img.shields.io/badge/Yahoo%20Finance-black?style=for-the-badge&color=%238421f3)
 ](https://finance.yahoo.com/) mediante el uso de su [API](https://github.com/ranaroussi/yfinance), garantizando datos financieros confiables y actualizados.
 
 - Características: Incluyen variables clave para el análisis de inversiones, como precios de acciones, volumen de transacciones y otros indicadores relevantes.
