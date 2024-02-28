@@ -36,27 +36,25 @@ Este proyecto se presenta como una herramienta accesible y valiosa, beneficiando
 
 ### Herramientas y Técnicas:
 
-- Extracción y Almacenamiento de Datos: Utilizamos la API de Yahoo Finance para extraer datos en tiempo real. Estos datos se almacenaron en una base de datos PostgreSQL mediante el orquestador de flujos de Render.
+- Extracción y Almacenamiento de Datos: Utilizamos la API de Yahoo Finance para extraer datos en tiempo real. Estos datos se almacenaron en una base de datos [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/) mediante el orquestador de flujos de [![Render](https://img.shields.io/badge/Render-black?style=for-the-badge)](https://render.com/).
 
-- Análisis Exploratorio de Datos (EDA): Power BI se empleó para conectarse a la base de datos y realizar un EDA detallado, visualizando gráficamente los datos extraídos.
+- Análisis Exploratorio de Datos (EDA): [![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white)](https://powerbi.microsoft.com/es-es/desktop/) se empleó para conectarse a la base de datos y realizar un EDA detallado, visualizando gráficamente los datos extraídos.
 
-- Aprendizaje Automático: Python se utilizó para implementar modelos de machine learning, específicamente para prever el precio de las acciones y evaluar posibles tendencias futuras.
-/licenses/mit/)
+- Aprendizaje Automático: se utilizó [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://www.python.org/) para implementar modelos de machine learning, específicamente para prever el precio de las acciones y evaluar posibles tendencias futuras.
 
 ## Contacto
 
-| Integrantes | Rol |
-|------------|------------|
-| [Gabriel Fernandez](https://github.com/gabfer1896) | *Data Engineer* |
-| [Hugo Terrile](https://github.com/hterril) | *Data Engineer* |
-| [Pablo Chail](https://github.com/Pablochail) | *Data Engineer* |
-| [Ismael Antonio Gomez Perez](https://github.com/IsmaelGomezPerez) | *Data Scientist* |
-| [Marcelo Peralta](https://github.com/Tato2013) | *Data Scientist* |
-| [Alvaro Rodrigo Soria](https://github.com/Alvarosc90) | *Data Analyst* |
-| [Juan Pablo Nieto](https://github.com/JuanPabloNieto24) | *Data Analyst* |
+| Integrantes | Rol | Contacto
+|------------|------------|------------|
+| [Gabriel Fernandez](https://github.com/gabfer1896) | ![Data Engineer](https://img.shields.io/badge/Data%20Engineer-black?style=for-the-badge&color=%2384b6f4) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabfer1896) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
+| [Hugo Terrile](https://github.com/hterril) | ![Data Engineer](https://img.shields.io/badge/Data%20Engineer-black?style=for-the-badge&color=%2384b6f4) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hterril) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
+| [Pablo Chail](https://github.com/Pablochail) | ![Data Engineer](https://img.shields.io/badge/Data%20Engineer-black?style=for-the-badge&color=%2384b6f4) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pablochail) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
+| [Marcelo Peralta](https://github.com/Tato2013) | ![Data Scientist](https://img.shields.io/badge/Data%20Scientist-black?style=for-the-badge&color=%2377dd77) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tato2013) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
+| [Alvaro Rodrigo Soria](https://github.com/Alvarosc90) | ![Data Analyst](https://img.shields.io/badge/Data%20Analyst-black?style=for-the-badge&color=%23fdfd96) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alvarosc90) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
+| [Juan Pablo Nieto](https://github.com/JuanPabloNieto24) | ![Data Analyst](https://img.shields.io/badge/Data%20Analyst-black?style=for-the-badge&color=%23fdfd96) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JuanPabloNieto24) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-pablo-nieto-perfil/)
 
 ## Badges
 
 Add badges from somewhere like: [shields.io](https://shields.io/)
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com)
