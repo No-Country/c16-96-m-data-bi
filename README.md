@@ -32,7 +32,7 @@ Este proyecto se presenta como una herramienta accesible y valiosa, beneficiando
 
 - Características: Incluyen variables clave para el análisis de inversiones, como precios de acciones, volumen de transacciones y otros indicadores relevantes.
 
-- Período de Tiempo: Los datos abarcan un período específico desde [Fecha de Inicio] hasta [Fecha de Fin].
+- Período de Tiempo: Los datos abarcan un período específico desde Diciembre del 2017 hasta la actualidad.
 
 ### Herramientas y Técnicas:
 
