@@ -1,8 +1,12 @@
 # GROWTREND Análisis de tendencia de inversiones: Un estudio de acciones en el mercado financiero.
 
-# Resumen
+## Introducción
 
-Este proyecto se centra en el análisis de tendencias de inversiones en el mercado accionario de Estados Unidos, utilizando técnicas de ETL, EDA, DV y Machine Learning. Buscamos identificar patrones y oportunidades de inversión para que los inversores tomen decisiones informadas. El resultado final es la presentación de una cartera destacada por su rendimiento sólido y riesgo moderado.
+En el dinámico y complejo mundo de las inversiones, la capacidad de tomar decisiones informadas es clave para el éxito financiero. GROWTREND emerge como una herramienta integral para analizar tendencias en el mercado accionario de Estados Unidos. Este proyecto se sumerge en la vasta cantidad de datos financieros, utilizando técnicas avanzadas de Extracción, Transformación y Carga (ETL), Análisis Exploratorio de Datos (EDA), Visualización de Datos (DV) y Machine Learning para proporcionar insights valiosos a inversores, analistas financieros y estudiantes.
+
+## Resumen
+
+Este proyecto se enfoca en identificar patrones y oportunidades de inversión, presentando una cartera destacada por su rendimiento sólido y riesgo moderado. Utilizamos datos extraídos de Yahoo Finance a través de su API, garantizando la fiabilidad y actualización constante de la información. La metodología abarca desde la extracción y almacenamiento de datos hasta el uso de herramientas como PowerBI para el análisis exploratorio y Python para implementar modelos de Machine Learning.
 
 ## Conceptos Clave:
 
@@ -28,7 +32,8 @@ Este proyecto se presenta como una herramienta accesible y valiosa, beneficiando
 
 ### Datos:
 
-- Fuente: La información se extrajo de la página Yahoo Finance mediante el uso de su API, garantizando datos financieros confiables y actualizados.
+- Fuente: La información se extrajo de la página [![Yahoo Finance](https://img.shields.io/badge/Yahoo%20Finance-violet?style=for-the-badge&color=%23781FBA%20)
+](https://finance.yahoo.com/) mediante el uso de su [API](https://github.com/ranaroussi/yfinance), garantizando datos financieros confiables y actualizados.
 
 - Características: Incluyen variables clave para el análisis de inversiones, como precios de acciones, volumen de transacciones y otros indicadores relevantes.
 
@@ -47,14 +52,8 @@ Este proyecto se presenta como una herramienta accesible y valiosa, beneficiando
 | Integrantes | Rol | Contacto
 |------------|------------|------------|
 | [Gabriel Fernandez](https://github.com/gabfer1896) | ![Data Engineer](https://img.shields.io/badge/Data%20Engineer-black?style=for-the-badge&color=%2384b6f4) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabfer1896) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
-| [Hugo Terrile](https://github.com/hterril) | ![Data Engineer](https://img.shields.io/badge/Data%20Engineer-black?style=for-the-badge&color=%2384b6f4) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hterril) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
-| [Pablo Chail](https://github.com/Pablochail) | ![Data Engineer](https://img.shields.io/badge/Data%20Engineer-black?style=for-the-badge&color=%2384b6f4) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pablochail) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
-| [Marcelo Peralta](https://github.com/Tato2013) | ![Data Scientist](https://img.shields.io/badge/Data%20Scientist-black?style=for-the-badge&color=%2377dd77) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tato2013) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
-| [Alvaro Rodrigo Soria](https://github.com/Alvarosc90) | ![Data Analyst](https://img.shields.io/badge/Data%20Analyst-black?style=for-the-badge&color=%23fdfd96) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alvarosc90) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
+| [Hugo Terrile](https://github.com/hterril) | ![Data Engineer](https://img.shields.io/badge/Data%20Engineer-black?style=for-the-badge&color=%2384b6f4) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hterril) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hugo-terrile-it/)
+| [Pablo Chail](https://github.com/Pablochail) | ![Data Engineer](https://img.shields.io/badge/Data%20Engineer-black?style=for-the-badge&color=%2384b6f4) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pablochail) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pablochail/)
+| [Marcelo Peralta](https://github.com/Tato2013) | ![Data Scientist](https://img.shields.io/badge/Data%20Scientist-black?style=for-the-badge&color=%2377dd77) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tato2013) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcelo-peralta2/)
+| [Alvaro Rodrigo Soria](https://github.com/Alvarosc90) | ![Data Analyst](https://img.shields.io/badge/Data%20Analyst-black?style=for-the-badge&color=%23fdfd96) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alvarosc90) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alvaro-rodrigo-soria-casali-60422a135/)
 | [Juan Pablo Nieto](https://github.com/JuanPabloNieto24) | ![Data Analyst](https://img.shields.io/badge/Data%20Analyst-black?style=for-the-badge&color=%23fdfd96) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JuanPabloNieto24) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-pablo-nieto-perfil/)
-
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com)
