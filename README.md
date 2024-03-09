@@ -1,5 +1,18 @@
 # GROWTREND Análisis de tendencia de inversiones: Un estudio de acciones en el mercado financiero.
 
+<a href="https://www.novypro.com/project/dashboard-de-análisis-de-tendencias-de-acciones"><img src="https://imgur.com/a/53qwid2" title="source: imgur.com" /></a>
+
+## Índice
+* [Introducción](#introducción)
+* [Resumen](#resumen)
+* [Conceptos Claves](#conceptos-claves)
+* [Público Objetivo](#público-objetivo)
+* [Metodología](#metodología)
+    * [Datos](#datos)
+    * [Herramientas y Técnicas](#herramientas-y-técnicas)
+* [Deploy](#deploy)
+* [Contacto](#contacto)
+
 ## Introducción
 
 En el dinámico y complejo mundo de las inversiones, la capacidad de tomar decisiones informadas es clave para el éxito financiero. GROWTREND emerge como una herramienta integral para analizar tendencias en el mercado accionario de Estados Unidos. Este proyecto se sumerge en la vasta cantidad de datos financieros, utilizando técnicas avanzadas de Extracción, Transformación y Carga (ETL), Análisis Exploratorio de Datos (EDA), Visualización de Datos (DV) y Machine Learning para proporcionar insights valiosos a inversores, analistas financieros y estudiantes.
@@ -8,7 +21,7 @@ En el dinámico y complejo mundo de las inversiones, la capacidad de tomar decis
 
 Este proyecto se enfoca en identificar patrones y oportunidades de inversión, presentando una cartera destacada por su rendimiento sólido y riesgo moderado. Utilizamos datos extraídos de Yahoo Finance a través de su API, garantizando la fiabilidad y actualización constante de la información. La metodología abarca desde la extracción y almacenamiento de datos hasta el uso de herramientas como PowerBI para el análisis exploratorio y Python para implementar modelos de Machine Learning.
 
-## Conceptos Clave:
+## Conceptos Claves:
 
 - ETL (Extracción, Transformación y Carga): Proceso integral para adquirir, transformar y cargar datos desde diversas fuentes.
 
@@ -46,6 +59,12 @@ Este proyecto se presenta como una herramienta accesible y valiosa, beneficiando
 - Análisis Exploratorio de Datos (EDA): [![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white)](https://powerbi.microsoft.com/es-es/desktop/) se empleó para conectarse a la base de datos y realizar un EDA detallado, visualizando gráficamente los datos extraídos.
 
 - Aprendizaje Automático: se utilizó [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://www.python.org/) para implementar modelos de machine learning, específicamente para prever el precio de las acciones y evaluar posibles tendencias futuras.
+
+## Deploy
+
+API Machine Learning [![FASTAPI](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white)](https://proyectonocountryml.onrender.com/docs)
+
+Documentacion de la API [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tato2013/ProyectoNoCountryML)
 
 ## Contacto
 
