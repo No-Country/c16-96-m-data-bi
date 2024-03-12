@@ -1,6 +1,6 @@
 # GROWTREND Análisis de tendencia de inversiones: Un estudio de acciones en el mercado financiero.
 
-![banner](https://github.com/JuanPabloNieto24/Encriptador/assets/64119342/b6a15679-8455-4e1b-abde-0cdeed84fdc0)
+![banner](https://github.com/No-Country/c16-96-m-data-bi/assets/64119342/adf8fd15-05bd-4e08-9cb3-fd33042a5f15)
 
 ## Índice
 * [Introducción](#introducción)
