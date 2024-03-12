@@ -1,6 +1,6 @@
 # GROWTREND Análisis de tendencia de inversiones: Un estudio de acciones en el mercado financiero.
 
-<a href="https://www.novypro.com/project/dashboard-de-análisis-de-tendencias-de-acciones"><img src="https://imgur.com/a/53qwid2" title="source: imgur.com" /></a>
+![banner](https://github.com/JuanPabloNieto24/Encriptador/assets/64119342/b6a15679-8455-4e1b-abde-0cdeed84fdc0)
 
 ## Índice
 * [Introducción](#introducción)
